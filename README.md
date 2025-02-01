@@ -13,9 +13,7 @@ As enrollies are submitting their request to join the course via Google Forms, w
 The data source is attached in this repository.
 
 ### Enrollees education
-After enrollment everyone should fill the form about their education level. This form is being digitalized manually. 
-
-This table contains the following columns:
+After enrollment everyone should fill the form about their education level. This form is being digitalized manually. This table contains the following columns:
 
 - **enrollee_id**: A unique identifier for each enrollee. This integer value uniquely distinguishes each participant in the dataset.
 - **enrolled_university**: Indicates the enrollee's university enrollment status. Possible values include no_enrollment, Part time course, and Full time course.
@@ -25,9 +23,7 @@ This table contains the following columns:
 The data source is attached in this repository.
 
 ### Enrollees's working experience
-Another survey that is being collected manually by educational department is about working experience.
-
-This table contains the following columns:
+Another survey that is being collected manually by educational department is about working experience. This table contains the following columns:
 
 - **enrollee_id**: A unique identifier for each enrollee. This integer value uniquely distinguishes each participant in the dataset.
 - **relevent_experience**: Indicates whether the enrollee has relevant work experience related to the field they are currently studying or working in. Possible values include Has relevent experience and No relevent experience.
@@ -39,9 +35,7 @@ This table contains the following columns:
 The data source is attached in this repository.
 
 ### Training hours
-From LMS system's database you can retrieve a number of training hours for each student that they have completed.
-
-Database credentials:
+From LMS system's database you can retrieve a number of training hours for each student that they have completed. Database credentials:
 
 - Database type: `MySQL`
 - Host: `112.213.86.31`
@@ -52,15 +46,10 @@ Database credentials:
 - Table name: `training_hours`
 
 ### City development index
-Another source that can be usefull is the table of City development index.
-
-The City Development Index (CDI) is a measure designed to capture the level of development in cities. It may be significant for the resulting prediction of student's employment motivation.
-
-It is stored [here](https://sca-programming-school.github.io/city_development_index/index.html).
+Another source that can be usefull is the table of City development index. The City Development Index (CDI) is a measure designed to capture the level of development in cities. It may be significant for the resulting prediction of student's employment motivation. It is stored [here](https://sca-programming-school.github.io/city_development_index/index.html).
 
 ### Employment
-From LMS database you can also retrieve the fact of employment. If student is marked as employed, it means that this student started to work in our company after finishing the course.
-Database credentials:
+From LMS database you can also retrieve the fact of employment. If student is marked as employed, it means that this student started to work in our company after finishing the course. Database credentials:
 
 - Database type: `MySQL`
 - Host: `112.213.86.31`
