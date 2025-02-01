@@ -56,7 +56,7 @@ Another source that can be usefull is the table of City development index.
 
 The City Development Index (CDI) is a measure designed to capture the level of development in cities. It may be significant for the resulting prediction of student's employment motivation.
 
-It is stored here: https://sca-programming-school.github.io/city_development_index/index.html
+It is stored [here](https://sca-programming-school.github.io/city_development_index/index.html).
 
 ### Employment
 From LMS database you can also retrieve the fact of employment. If student is marked as employed, it means that this student started to work in our company after finishing the course.
